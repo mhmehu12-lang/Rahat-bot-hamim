@@ -109,7 +109,7 @@ module.exports.run = async function ({ api, event }) {
  ctx.fillStyle = "#00FFE5";
  ctx.shadowColor = "#00FFE5";
  ctx.shadowBlur = 25;
- ctx.fillText("Rahat Bot", WIDTH / 2, HEIGHT - 70);
+ ctx.fillText("Hamim Bot", WIDTH / 2, HEIGHT - 70);
 
  ctx.shadowBlur = 0;
 
