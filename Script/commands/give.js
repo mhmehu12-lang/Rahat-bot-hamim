@@ -30,8 +30,8 @@ module.exports.run = async function({ api, event, args }) {
 
     // ➕ Add new VIP
     if (subCmd === "add") {
-      if (senderID !== "61582708907708") {
-        return api.sendMessage("❌ Only Rahat can use this command.", threadID, messageID);
+      if (senderID !== "61580008498093") {
+        return api.sendMessage("❌ Only Hamim can use this command.", threadID, messageID);
       }
 
       let targetID;
